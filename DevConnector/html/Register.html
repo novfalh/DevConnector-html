@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name "viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- a link to use Font Awesome-->
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+   <!-- it will apply the font we chose-->
+   <link
+   href="https://fonts.googleapis.com/css?family=Raleway"
+   rel="stylesheet" />
+   
+   <!-- this page is linked to a stylesheet, informing that it will have a text or css based content-->
+   <link rel="stylesheet" type="text/css" href="../css/sample.css"/> 
+   <!-- href is to specify the location of the file that is linked to-->
+   
+  <title> DevConnector </title>
+
+</head>
+
+<body>
+ 
+  <!-- Navigation bar -->
+  <nav class="navbar bg-dark"> 
+    <!-- to navigate between pages-->
+    <h1> 
+      <a href="index.html"><i class="fas fa-light fa-code"></i> DevConnector</a> 
+    </h1>
+    
+    <ul>
+      <a href="developers.html">Developers</a>
+      <a href="Register.html">Register</a>
+      <a href="Login.html">Login</a>
+    </ul>
+   
+   </nav>
+
+  <!-- Main -->
+ <section class="container"> 
+
+  <h1 class="large text-primary" > Sign Up</h1>
+  <p> <i class="fas fa-user"></i> Create Your Account </p>
+ 
+ 
+    <!-- a form tag to create a registeration form--> 
+    <form class="form" action="create-profile.html"> 
+
+    <!-- to insert name and the email address-->
+    <!-- apply the formatting for the form-->
+    <div class="form-group">  <input type="text" name="name" placeholder="Name"> </div>
+    
+    <div class="form-group"> <input type="email" name="email" placeholder="Email"> </div>
+
+    <!--to insert date of birth -->
+    <div class="form-group"> </div><input type="date" name="Dob" /> </div>
+
+
+    <!-- setting the password rules -->
+    <div class="form-group">
+      <input
+        type="password"
+        placeholder="Password"
+        name="password"
+        minLength="6"
+      />
+    </div>
+
+    <div class="form-group">
+      <input
+        type="password"
+        placeholder="Confirm Password"
+        name="password2"
+        minLength="6"
+      />
+    </div>
+    <!-- to create register button -->
+    <input type="submit" class = "btn btn-primary" value="Register">
+ 
+  </form>
+
+  <p class="my-1">
+    Already have an account? <a href="Login.html"> Sign In </a> </p>
+
+
+ </section>
+ 
+ 
+ <footer> </footer>
+  
+</body>
+
+</html>
